@@ -1,0 +1,130 @@
+<html>
+    <head><title>java Script</title></head>
+    <body>
+        <p id="demo"></p>
+
+
+        <script>
+            document.write("First line <br>");
+            document.write("First line <br>");
+           // alert("new window");
+           //confirm("new window");
+           // prompt("Enter Name");
+            document.getElementById("demo").innerHTML="Hello World";
+
+
+
+            var x=10;
+            document.write(x+"<br>");
+            var x=15;
+            document.write(x+"<br>");
+            var y ="hello";
+            document.write(y+"<br>");
+
+            let a=20;
+            document.write(a+"<br>");
+
+            const z="HI";
+            document.write(z+"<br>");
+
+            const ob1={firstName:"web",lastname:"tech"};
+            document.write(ob1.firstName + ob1.lastname+"<br>");
+
+            const arra1=["php","java"];
+            document.write(arra1[0]+"<br>");
+
+            var x=10;
+            var y=15;
+            document.write(x+y+"<br>");
+            
+            var mark=60;
+            var result=(mark>50)?"pass":"fail";
+            document.write(result+"<br>");
+
+            const person={name:"john",age:30};
+            document.write("name" in person);
+            document.write("<br>")
+            if (mark>75){
+                result="A";
+            }
+            else if(mark>65){
+                result="B";
+            }
+            else if(mark>50){
+                result="C";
+            }
+            else if(mark>35){
+                result="D";
+            }
+            else{
+                result="E";
+            }
+            document.write(result+"<br>");
+
+           /* switch(num){
+                case 0:
+                    day = "Sunday";
+                    break;
+                case 1:
+                    day = "Monday";
+                    break;
+                case 2:
+                    day = "Tuesday";
+                    break;
+                case 3:
+                    day = "Wednesday";
+                    break;
+                case 4:
+                    day = "Thursday";
+                    break;
+                case 5:
+                    day = "Friday";
+                    break;
+                case 6:
+                    day = "Saturday";
+                default:day="enter num";
+                }
+                */
+            /* 
+            var eventotal=0;
+            var oddtotal=0;
+            for(let i=1;i<=100;i++){
+                if(i%2==0){
+                    eventotal=eventotal+i;
+                }
+                else{
+                    oddtotal=oddtotal+i;
+                }
+            }
+
+            */
+
+            var length=7;
+            var width =3;
+            const area = length*width;
+            document.write("Length : " + length+ " width : " + width+"<br>");
+            document.write("Area : "+area+"<br>");
+
+            // user input
+           /* var input = prompt("enter value");
+            document.write(input+"<br>");
+
+            var x=parseInt(prompt("enter the x"));
+            var y=parseInt(prompt("enter the x"));
+            document.write(x+y +"<br>");
+            */
+
+            /*var str="web";
+            
+            document.write(str.charAt(0));
+
+           */
+          
+          
+
+
+        </script>
+         <button onclick="this.innerHTML=Date()">The time is?</button>
+         <button onclick="console.log('thank you');">Please click</button>
+    </body>
+</html>
